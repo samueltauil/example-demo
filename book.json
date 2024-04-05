@@ -1,10 +1,18 @@
 {
     "gitbook": "3.2.2",
-    "title": "OpenShift Cookbook",
+    "title": "Demos Playground",
     "plugins": [
         "search",
         "theme-faq",
         "-fontsettings",
         "-sharing"
-    ]
+    ],
+    "pluginsConfig": {
+        "lunr": {
+            "maxIndexSize": 200000
+        }
+    },
+    "structure": {
+        "readme": "INTRO.md"
+    }
 }

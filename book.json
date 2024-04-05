@@ -1,0 +1,10 @@
+{
+    "gitbook": "3.2.2",
+    "title": "OpenShift Cookbook",
+    "plugins": [
+        "search",
+        "theme-faq",
+        "-fontsettings",
+        "-sharing"
+    ]
+}
